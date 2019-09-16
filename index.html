@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="navBarMobile">
+        <div class="hamburger">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+      </div>
+      <nav role="navigation" id="home" class="menu">
+        <ul class="navigationBar">
+          <li class="navItem"><a href="#main" class="pageLink">Home</a></li>
+          <li class="navItem"><a href="#about" class="pageLink">About</a></li>
+          <li class="navItem">
+            <a href="#projects" class="pageLink">Projects</a>
+          </li>
+          <li class="navItem">
+            <a href="#contact" class="pageLink">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="homePage" role="main" id="main">
+      <h1 class="titleLine">Hi, I'm Kaitlynn Ngo.</h1>
+      <h2 class="tagline">
+       Front-end developer based in Silicon Valley. Passionate about interactive design.
+      </h2>
+    </section>
+    <hr width="60%" size="5" id="about" />
+    <section class="aboutPage" role="contentinfo">
+       <p class="aboutMe">
+         <h1> About me </h1>
+       </p>
+      <p class="aboutMe">
+        I'm a free flowing, cat loving, software developer. I'm meticulous and swift in construction projects from ground up.
+      </p>
+    </section>
+    <hr width="60%" size="5" id="projects" />
+    <section class="projects" role="listbox">
+      <h1 class="projectList">Projects</h1>
+      <section class="projectGroup" role="contentinfo">
+        <p>
+          <img
+            src="https://github.com/katngo/portfolio/blob/master/screenshot.PNG?raw=true"
+            class="screenshot"
+            alt="The Cat Quiz"
+          />
+        </p>
+        <h2 class="projectTitle">The Cat Quiz</h2>
+        <p class="projectInfo">
+          This cat quiz tests your knowledge about cats. Anything you know so far may just be myths or misconceptions. Find out what these felines want you to know about them.
+        </p>
+        <ul class="projectInfo">
+          <li>
+            <img src="https://img.icons8.com/ios-filled/30/000000/javascript.png"></img>
+          </li>
+
+          <li>
+            <img src="https://img.icons8.com/ios-filled/30/000000/jquery.png"></img>
+          </li>
+      
+          <li>
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/html-5.png"></img>
+          </li>
+
+          <li>
+            <img src="https://img.icons8.com/ios-filled/30/000000/css3.png"></img>
+          </li>
+        </ul>
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/katngo/QuizApp"
+            target="_blank"
+            class="viewCode"
+            >View Code
+          </a>
+          <a
+            href="https://katngo.github.io/catquiz/"
+            target="_blank"
+            class="viewProject"
+            >View Project
+          </a>
+        </div>
+      </section>
+    </section>
+    <hr width="60%" size="5" id="contact" />  
+    <section class="contact" role="listbox">
+      <h1>Get in Touch</h1>
+      <p class="contactBlurb">
+        Feel free to contact me via social media or shoot me an email.
+      </p>
+      <ul class="contactInfo">
+        <li>
+          <button class="buttonIcon" id="email">
+            <a href="mailto:katn.c9@gmail.com"  title="Send me an email"><img src="https://github.com/katngo/portfolio/blob/master/emailicon.png?raw=true" alt="Email" class="icon"
+            /></a>
+          </button>
+        </li>
+        <li>
+          <button class="buttonIcon" id="github">
+            <a href="https://github.com/katngo" title="Visit my GitHub" target="_blank"
+              ><img src="https://github.com/katngo/portfolio/blob/master/githubicon.png?raw=true" alt="GitHub" class="icon"
+            /></a>
+          </button>
+        </li>
+       
+        <li>
+          <button class="buttonIcon" id="linkedin">
+            <a
+              href="https://www.linkedin.com" title="Connect with me on LinkedIn"
+              target="_blank"><img src="https://github.com/katngo/portfolio/blob/master/linkedinicon.png?raw=true" alt="Linkedin" class="icon"
+            /></a>
+          </button>
+        </li>
+      </ul>
+    <footer>
+      © 2019 Kaitlynn Ngo
+      </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
